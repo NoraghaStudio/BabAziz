@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@fontsource/cairo/400.css';
+@import '@fontsource/cairo/700.css';
+@import '@fontsource/almarai/400.css';
+@import '@fontsource/almarai/700.css';
+
+:root {
+  direction: rtl;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Almarai', sans-serif;
+}
+
+.ltr {
+  direction: ltr;
+}
